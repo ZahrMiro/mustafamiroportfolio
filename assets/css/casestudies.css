@@ -1,0 +1,142 @@
+main {
+    padding: 0 90px;
+}
+
+img {
+    margin-bottom: 3rem;
+}
+
+
+/* Go back button */
+.btn-goback {
+    display: flex;
+    color: black;
+    margin: 3rem 0 2rem 0;
+}
+
+.btn-goback-h2 {
+    margin-left: 10px;
+    font-size: 1.3rem;
+}
+
+
+
+/* Case study intro container */
+.casestudy-container {
+    height: 255px;
+    padding: 45px 60px;
+    color: var(--black);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 5rem;
+    align-self: center;
+}
+
+.casestudy-container > h1 {
+    font-size: 2rem;
+}
+
+.casestudy-intro {
+    grid-column: 1/2;
+    font-size: 1.3rem;
+    line-height: 35px;
+}
+
+.casestudy-intro > div {
+    display: flex;
+}
+
+.p-strong {
+    font-weight: 700;
+}
+
+.p-italic {
+    color: var(--black);
+    margin-left: 10px;
+    font-style: italic;
+}
+
+#btn-see-online {
+    grid-column: 2/3;
+    height: 60px;
+    width: 150px;
+    background-color: var(--black);
+    color: var(--bage);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    left: 160px;
+    top: 10px;
+}
+
+/* Case study intro container in different colors*/
+.casestudy-container-coralred {
+    background-color: var(--coralred);
+}
+
+.casestudy-container-yellow {
+    background-color: var(--yellow);
+}
+
+.casestudy-container-blue {
+    background-color: var(--blue);
+}
+
+
+
+/* General style of mainText for all case studies */
+.casestudy-mainText {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 20px;
+}
+
+.casestudy-h2 {
+    font-family: 'Public Sans', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.casestudy-p {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+/* Case study 1 */
+.casestudy-mainText1{
+    display: grid;
+    grid-template-rows: 1fr 9fr 6fr;
+}
+
+.casestudy-mainText1-video {
+    width: 600px;
+}
+
+/* Case study 2 */
+.casestudy-mainText2{
+    display: grid;
+    grid-template-rows: 2fr 24fr 1fr;
+}
+
+.casestudy-ul {
+    font-size: 20px;
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.casestudy-ul > li {
+    margin-bottom: 1.3rem;
+}
+
+.casestudy-mainText2-img {
+    width: 600px;
+}
+
+
+/* Case study 3 */
+.casestudy-mainText3 {
+    display: grid;
+    grid-template-rows: 2fr 10.5fr 1fr;
+}
+
